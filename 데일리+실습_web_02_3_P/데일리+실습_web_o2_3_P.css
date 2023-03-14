@@ -1,0 +1,22 @@
+.big-box {
+  position: relative;
+  border: 2px solid black;
+  width: 800px;
+  height: 800px;
+}
+
+.small-box {
+  width: 100px;
+  height: 100px;
+  float: left;
+  display: table;
+}
+
+.black{
+  background-color:black
+}
+
+.white{
+  background-color:white
+}
+

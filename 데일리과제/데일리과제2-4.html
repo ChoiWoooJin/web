@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  /* 자손은 안쪽까지 자식은 그 바깥까지 */
+  
+    div p {
+      color: blue;
+      position: relative;
+      left: 40px;
+    }
+
+    div > p {
+      color: crimson;
+      position: static;
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    <p>자식</p>
+    <span><p>손자</p></span>
+    <p>자식</p>
+  </div>
+    
+  
+</body>
+</html>

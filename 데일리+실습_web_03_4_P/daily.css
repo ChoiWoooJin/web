@@ -1,0 +1,13 @@
+.box {
+  background-image: url("header.png");
+  background-size: cover;
+  height: 300px;
+  background-repeat: no-repeat;
+  
+}
+.container{
+  display: flex;
+  flex-direction: col;
+  width: 1500px;
+  height: 1500px;
+}
